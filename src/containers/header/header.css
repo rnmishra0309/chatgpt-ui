@@ -83,11 +83,6 @@
   margin-top: 2rem;
 }
 
-.gpt3__header-container__people img {
-  width: 181.79px;
-  height: 38px;
-}
-
 .gpt3__header-container__people p {
   text-align: center;
   margin: 0 0 0 1rem;
@@ -121,29 +116,29 @@
 }
 
 @media screen and (max-width: 650px) {
-    .gpt3__header-content h1 {
-        font-size: 48px;
-        line-height: 60px;
-    }
+  .gpt3__header-content h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
 
-    .gpt3__header-content p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-    
-    .gpt3__header-content__people {
-        flex-direction: column;
-    }
+  .gpt3__header-content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
-    .gpt3__header-content__people p {
-        margin: 0;
-    }
+  .gpt3__header-container__people {
+    flex-direction: column;
+  }
 
-    .gpt3__header-content__input input,
-    .gpt3__header-content__input button {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  .gpt3__header-container__people p {
+    margin: 0;
+  }
+
+  .gpt3__header-content__input input,
+  .gpt3__header-content__input button {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 @media screen and (max-width: 490px) {
